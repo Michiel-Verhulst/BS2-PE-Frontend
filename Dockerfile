@@ -1,5 +1,5 @@
 # get the base node image
-from node:17-alpine
+FROM node:17-alpine
 
 ENV PATH /app/node_modules/.bin:$PATH
 # set the working dir for container
