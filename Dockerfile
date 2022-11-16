@@ -3,7 +3,7 @@ FROM node:17-alpine
 
 ENV PATH /app/node_modules/.bin:$PATH
 # set the working dir for container
-WORKDIR /app
+WORKDIR /workdir
 
 # copy the json file first
 COPY package*.json ./
