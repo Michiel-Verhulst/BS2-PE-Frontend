@@ -6,7 +6,7 @@ import 'antd/dist/antd.css'
 import CollectionForm from './Form'
 
 class App extends Component{
-
+ 
     API_URL="http://193.191.176.108:8080"
 
     state = {
